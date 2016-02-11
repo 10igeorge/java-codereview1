@@ -12,10 +12,10 @@ public class App {
     String finalWord = "";
     char[] splitWord = word.toCharArray();
     for (Integer i=0; i < splitWord.length; i++){
-      if (splitWord[i] == ('a')){
-        finalWord = finalWord + "-";
+      if (splitWord[i] == ('a') || splitWord[i] == ('e')){
+        finalWord += "-";
       } else {
-        finalWord = finalWord + splitWord[i];
+        finalWord += splitWord[i];
       }
     }
     return finalWord;
