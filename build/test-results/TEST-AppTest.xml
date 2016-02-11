@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-02-11T22:05:12" hostname="epicodus-65.local" time="0.002">
+<testsuite name="AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-02-11T22:05:53" hostname="epicodus-65.local" time="0.001">
   <properties/>
   <testcase name="replaceVowel_replacesVowelAEIOUWithDash_replaceU" classname="AppTest" time="0.001"/>
-  <testcase name="replaceVowel_replacesVowelAEWithDash_replaceE" classname="AppTest" time="0.001"/>
-  <testcase name="replaceVowel_replacesVowelAEIWithDash_replaceI" classname="AppTest" time="0.0"/>
-  <testcase name="replaceVowel_replacesVowelAEIOWithDash_replaceO" classname="AppTest" time="0.0"/>
-  <testcase name="replaceVowel_replacesVowelAWithDash_replaceA" classname="AppTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
