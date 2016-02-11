@@ -26,11 +26,11 @@ public class AppTest {
     App replaceO = new App();
      assertEquals("-", replaceO.replaceVowel("o"));
   }
-  //
-  // @Test
-  // public void replaceVowel_replacesVowelAEIOUWithDash_replaceU(){
-  //   App replaceU = new App();
-  //    assertEquals("ar-g-la", replaceU.replaceVowel("arugula"));
-  // }
+
+  @Test
+  public void replaceVowel_replacesVowelAEIOUWithDash_replaceU(){
+    App replaceU = new App();
+     assertEquals("-", replaceU.replaceVowel("u"));
+  }
 
 }

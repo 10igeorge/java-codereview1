@@ -12,7 +12,7 @@ public class App {
     String finalWord = "";
     char[] splitWord = word.toCharArray();
     for (Integer i=0; i < splitWord.length; i++){
-      if (splitWord[i] == ('a') || splitWord[i] == ('e') || splitWord[i] == ('i') || splitWord[i] == ('o')){
+      if (splitWord[i] == ('a') || splitWord[i] == ('e') || splitWord[i] == ('i') || splitWord[i] == ('o') || splitWord[i] == ('u')){
         finalWord += "-";
       } else {
         finalWord += splitWord[i];
