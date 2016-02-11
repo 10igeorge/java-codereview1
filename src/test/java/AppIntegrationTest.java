@@ -21,7 +21,7 @@ public class AppIntegrationTest extends FluentTest {
       assertThat(pageSource()).contains("Enter a phrase to create a word puzzle!");
   }
   @Test
-  public void replaceVowel() {
+  public void replaceVowelWorks() {
     goTo("http://localhost:4567/");
     fill("#userInput").with("i'm so broke it's not even funny");
     submit(".btn");

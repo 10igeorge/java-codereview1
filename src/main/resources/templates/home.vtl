@@ -1,7 +1,18 @@
-<h1>Enter a phrase to create a word puzzle!</h1>
+<div class="jumbotron">
+   <h1>Puzzle Encryptor</h1>
+   <h3>Enter a word, phrase, or quote in the box below to create a personalized word puzzle!</h3>
+</div>
   <form action='/puzzle' method="get">
     <div class="form-group">
-      <label for="userInput">Phrase:</label>
+      <label for="userInput1">Word or Phrase:</label>
+      <input id="userInput" name="userInput" class="form-control" type="text">
+    </div>
+    <div class="form-group">
+      <label for="userInput2">Word or Phrase:</label>
+      <input id="userInput" name="userInput" class="form-control" type="text">
+    </div>
+    <div class="form-group">
+      <label for="userInput3">Word or Phrase:</label>
       <input id="userInput" name="userInput" class="form-control" type="text">
     </div>
     <button type="submit" class="btn btn-info">Go!</button>
