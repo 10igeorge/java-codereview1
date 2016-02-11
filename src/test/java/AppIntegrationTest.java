@@ -20,11 +20,11 @@ public class AppIntegrationTest extends FluentTest {
       goTo("http://localhost:4567/");
       assertThat(pageSource()).contains("Enter a phrase to create a word puzzle!");
   }
-  // @Test
-  // public void isALeapYear() {
-  //   goTo("http://localhost:4567");
-  //   fill("#year").with("2004");
-  //   submit(".btn");
-  //   assertThat(pageSource()).contains("Correct response");
-  // }
+  @Test
+  public void replaceVowel() {
+    goTo("http://localhost:4567/");
+    fill("#userInput").with("i'm so broke it's not even funny");
+    submit(".btn");
+    assertThat(pageSource()).contains("-'m s- br-k- -t's n-t -v-n f-nny");
+  }
 }
