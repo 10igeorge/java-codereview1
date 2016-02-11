@@ -20,12 +20,12 @@ public class AppTest {
     App replaceI = new App();
      assertEquals("-", replaceI.replaceVowel("i"));
   }
-  //
-  // @Test
-  // public void replaceVowel_replacesVowelAEIOWithDash_replaceO(){
-  //   App replaceO = new App();
-  //    assertEquals("h-rr-r", replaceO.replaceVowel("horror"));
-  // }
+
+  @Test
+  public void replaceVowel_replacesVowelAEIOWithDash_replaceO(){
+    App replaceO = new App();
+     assertEquals("-", replaceO.replaceVowel("o"));
+  }
   //
   // @Test
   // public void replaceVowel_replacesVowelAEIOUWithDash_replaceU(){
