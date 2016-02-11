@@ -1,0 +1,22 @@
+.jumbotron {
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+#btnimg {
+  background-image: url(/img/puzzlepiece.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 143px;
+  width: 144px;
+  border: none;
+  background-color: transparent;
+  box-shadow: 0;
+}
