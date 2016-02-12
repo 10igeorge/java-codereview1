@@ -29,7 +29,7 @@ public class App {
 
   public static String replaceVowel(String word) {
     String finalWord = "";
-    char[] splitWord = word.toCharArray();
+    char[] splitWord = word.toLowerCase().toCharArray();
     for (Integer i=0; i < splitWord.length; i++){
       if (splitWord[i] == ('a') || splitWord[i] == ('e') || splitWord[i] == ('i') || splitWord[i] == ('o') || splitWord[i] == ('u')){
         finalWord += "-";
@@ -37,6 +37,6 @@ public class App {
         finalWord += splitWord[i];
       }
     }
-    return finalWord;
+    return finalWord.toUpperCase();
   }
 }
