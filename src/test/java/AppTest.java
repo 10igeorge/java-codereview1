@@ -6,6 +6,6 @@ public class AppTest {
 @Test
   public void replaceVowel_replacesVowelAEIOUWithDash_vowelsToDashes(){
     App replaceAllVowels = new App();
-     assertEquals("b--ng -mb-d-xtr--s -s c--l", replaceAllVowels.replaceVowel("being ambidextrous is cool"));
+     assertEquals("B--NG -MB-D-XTR--S -S C--L", replaceAllVowels.replaceVowel("being ambidextrous is cool"));
   }
 }

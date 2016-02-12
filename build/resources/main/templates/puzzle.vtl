@@ -3,25 +3,25 @@
 
   <h2>$puzzle</h2>
   <br><br>
+
+
+
   <a href="/"><button type="button" name="newPuzzle" id="newPuzzle"></button></a>
 
-
-  <form action='/puzzleguess' method="get">
-    <div class="row">
-      <div class="col-md-4"></div>
-      <div class="col-md-4">
-        <div class="form-group">
-          <label for="userGuess">Guess the Phrase:</label>
-          <textarea name="userGuess" class="form-control" rows="5" id="userGuess"></textarea>
-        </div>
-      </div>
-      <div class="col-md-4"></div>
-    </div>
-    <br><br>
-    <div class="wrapper">
-      <button type="submit" id="btnimg"></button>
-    </div>
-  </form>
-
-
 </div>
+<form action='/' method="get">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="userGuess">Guess the Phrase:</label>
+        <textarea name="userGuess" class="form-control" rows="3" id="userGuess"></textarea>
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  <br><br>
+  <div class="wrapper">
+    <button type="button" class="btn btn-info">Guess!</button>
+  </div>
+</form>

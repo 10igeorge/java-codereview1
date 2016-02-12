@@ -18,13 +18,13 @@ public class AppIntegrationTest extends FluentTest {
   @Test
   public void rootTest() {
       goTo("http://localhost:4567/");
-      assertThat(pageSource()).contains("Enter a phrase to create a word puzzle!");
+      assertThat(pageSource()).contains("Enter a word, phrase, or quote in the boxes below to create personalized word puzzles!");
   }
   @Test
   public void replaceVowelWorks() {
     goTo("http://localhost:4567/");
-    fill("#userInput").with("i'm so broke it's not even funny");
-    submit(".btn");
-    assertThat(pageSource()).contains("-'m s- br-k- -t's n-t -v-n f-nny");
+    fill("#userInput").with("i am so broke");
+    submit("#btnimg");
+    assertThat(pageSource()).contains("- -M S- BR-K-");
   }
 }

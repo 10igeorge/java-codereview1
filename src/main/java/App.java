@@ -29,14 +29,14 @@ public class App {
 
   public static String replaceVowel(String word) {
     String finalWord = "";
-    char[] splitWord = word.toLowerCase().toCharArray();
+    char[] splitWord = word.toUpperCase().toCharArray();
     for (Integer i=0; i < splitWord.length; i++){
-      if (splitWord[i] == ('a') || splitWord[i] == ('e') || splitWord[i] == ('i') || splitWord[i] == ('o') || splitWord[i] == ('u')){
+      if (splitWord[i] == ('A') || splitWord[i] == ('E') || splitWord[i] == ('I') || splitWord[i] == ('O') || splitWord[i] == ('U')){
         finalWord += "-";
       } else {
         finalWord += splitWord[i];
       }
     }
-    return finalWord.toUpperCase();
+    return finalWord;
   }
 }
