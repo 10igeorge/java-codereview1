@@ -28,15 +28,16 @@ public class App {
   }
 
   public static String replaceVowel(String word) {
-    String finalWord = "";
-    char[] splitWord = word.toUpperCase().toCharArray();
-    for (Integer i=0; i < splitWord.length; i++){
-      if (splitWord[i] == ('A') || splitWord[i] == ('E') || splitWord[i] == ('I') || splitWord[i] == ('O') || splitWord[i] == ('U')){
-        finalWord += "-";
-      } else {
-        finalWord += splitWord[i];
+    String userWord = word;
+    Integer wordLengthLoopCount = 0;
+    String[] vowels = { "a", "A", "e", "E", "i", "I", "o", "O", "u", "U"};
+
+    while (wordLengthLoopCount < word.length()){
+      for (String vowel : vowels){
+        userWord = userWord.replaceAll(vowel, "-");
       }
+      wordLengthLoopCount ++;
     }
-    return finalWord;
+    return userWord;
   }
 }
