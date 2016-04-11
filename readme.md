@@ -10,8 +10,8 @@ Enjoy!
 
 #### Setup/Installation Requirements
 
-* run $ git clone https://github.com/10igeorge/java-codereview1.git
-* run $ gradle run
+* run `git clone https://github.com/10igeorge/java-codereview1.git`
+* run `gradle run`
 * open browser to localhost:4567/
 
 ###Technologies
